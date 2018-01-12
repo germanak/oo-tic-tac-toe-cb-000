@@ -38,6 +38,6 @@ class TicTacToe
       end
     end
 
-    cpunter
+    counter
   end
 end
