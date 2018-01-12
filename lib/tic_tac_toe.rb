@@ -33,7 +33,7 @@ class TicTacToe
     counter = 0
 
     @board.each do |position|
-      if position_taken?(input_to_index(position))
+      if position == "X" || position == "O"
         counter += 1
       end
     end
